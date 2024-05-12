@@ -41,7 +41,7 @@ MondongoLauncher es un launcher personalizado de Minecraft ligero y simple, hech
 
 ## Instalar mods
 - Ejecuta el launcher
-- Selecciona la opción 5: "Descarga mods"
+- Selecciona la opción "Descarga mods"
 - Permite que se abra la página [Moddermore](https://moddermore.net/)
 - Moddermore permite descargar modpacks como zip, por lo que puedes agregar todos los mods que contiene sin tener que crear una versión nueva
 - Busca el modpack que quieras
@@ -56,10 +56,10 @@ MondongoLauncher es un launcher personalizado de Minecraft ligero y simple, hech
 - Ve a [Modrinth](https://modrinth.com/modpacks) y busca cualquier modpack que quieras
 - Una vez dentro, baja hasta la parte de descargas
 - Selecciona la versión compatible con tu Minecraft y pulsa el botón verde que dice "Download"
-- Una vez descargado, ejecuta MondongoLauncher y selecciona la opción 5: Instalar un modpack
+- Una vez descargado, ejecuta MondongoLauncher y selecciona la opción "Instalar un modpack"
 - Te pedirá que introduzcas la ruta del modpack a descargar
 - Para ello, abre el Explorador de archivos y ve donde se encuentra el archivo
-- Seleccionalo, haz clic derecho sobre él y elige "Copiar como ruta de acceso" o Ctrl+Shift+C
+- Seleccionalo, haz clic derecho sobre él y elige "Copiar como ruta de acceso"  (o Ctrl+Shift+C)
 - Vuelve a la ventana de MondongoLaucher y pulsa Ctrl+V
 - Pegará la ruta del archivo, pero añadiendo unas comillas al principio y al final. Simplemente bórralas.
 - Pulsa Enter y lo demás es seguir las instrucciones del programa.
