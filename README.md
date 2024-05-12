@@ -13,15 +13,20 @@ MondongoLauncher es un launcher personalizado de Minecraft ligero y simple, hech
 - Dirígete a [Releases](https://github.com/MondongoLauncher/MondongoLauncher/releases) y descarga la última versión de `MondongoLauncher.zip`
 - Una vez descargado, descomprímelo y ejecuta `MondongoLauncher.exe`
 
-  ### Problemas con Windows Defender
+## Problemas con Windows Defender
+  
+> [!CAUTION]  
+> **SI DESCONFÍAS DE QUE EL PROGRAMA TENGA VIRUS, PUEDES REVISAR EL CÓDIGO ORGINAL ABRIENDO [main.py](https://github.com/MondongoLauncher/MondongoLauncher/blob/4bd396d2ffe3b9e233ddd9523d1d74e3f47f3e98/main.py)     EN LA PÁGINA DE INICIO**
+  
   - Al ejecutar por primera vez el programa, debería aparecer una ventana como esta:
 
   ![preview](https://github.com/MondongoLauncher/MondongoLauncher/blob/0ff6f5bb72bb64b6b3426acd8be9afba935fef67/assets/Alerta.png)
   - Esto se debe a que el programa no está firmado digitalmente. Explicando esto de una forma resumida, *se trata de firmar digitalmente el ejecutable con un certificado emitido por una autoridad de                  certificación (CA) de confianza, lo cual mejora la legitimidad de la aplicación y reduce la probabilidad de desencadenar detecciones antivirus*
     
   - Todo esto es muy bueno, hasta que descubres que tienes que pagar como 60 pavos al mes para mantener el certificado. Obviamente no lo voy a hacer, por eso aparece la ventana arriba mencionada. Para permitir       que Windows ejecute el programa, haz clic en "Más opciones" y después en "Ejecutar de todas formas"
-    
-  - **SI DESCONFÍAS DE QUE EL PROGRAMA TENGA VIRUS, PUEDES REVISAR EL CÓDIGO ORGINAL ABRIENDO [main.py](https://github.com/MondongoLauncher/MondongoLauncher/blob/4bd396d2ffe3b9e233ddd9523d1d74e3f47f3e98/main.py) EN LA PÁGINA DE INICIO**
+
+
+
 
 ## Uso del programa
 - Ejecuta `MondongoLauncher.exe`
