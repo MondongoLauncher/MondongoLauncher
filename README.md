@@ -17,7 +17,7 @@ MondongoLauncher es un launcher personalizado de Minecraft ligero y simple, hech
 ## Problemas con Windows Defender
   
 > [!CAUTION]  
-> **SI DESCONFÍAS DE QUE EL PROGRAMA TENGA VIRUS, PUEDES REVISAR EL CÓDIGO ORGINAL ABRIENDO [main.py](https://github.com/MondongoLauncher/MondongoLauncher/blob/4bd396d2ffe3b9e233ddd9523d1d74e3f47f3e98/main.py)     EN LA PÁGINA DE INICIO**
+> **SI DESCONFÍAS DE QUE EL PROGRAMA TENGA VIRUS, PUEDES REVISAR EL CÓDIGO ORIGINAL ABRIENDO [main.py](https://github.com/MondongoLauncher/MondongoLauncher/blob/4bd396d2ffe3b9e233ddd9523d1d74e3f47f3e98/main.py)     EN LA PÁGINA DE INICIO**
   
   - Al ejecutar por primera vez el programa, debería aparecer una ventana como esta:
 
