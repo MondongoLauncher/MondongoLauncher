@@ -10,12 +10,19 @@ MondongoLauncher es un launcher personalizado de Minecraft hecho con Python y la
     
 
 ## Instalación
-- Dirígete a [Releases](https://github.com/MondongoLauncher/MondongoLauncher/releases) y descarga la última versión del instalador del programa
-- Una vez descargado, ejecútalo
-- Sigue los pasos del instalador (no te olvides de seleccionar la casilla "Crear un acceso directo en el escritorio")
+- Dirígete a [Releases](https://github.com/MondongoLauncher/MondongoLauncher/releases) y descarga la última versión de "MondongoLauncher.zip"
+- Una vez descargado, descomprímelo y ejecuta MondongoLauncher.exe
+
+  ## Problemas con Windows Defender
+- Al ejecutar por primera vez el programa, debería aparecer una ventana como esta:
+
+  ![preview](https://github.com/MondongoLauncher/MondongoLauncher/blob/0ff6f5bb72bb64b6b3426acd8be9afba935fef67/assets/Alerta.png)
+- Esto se debe a que el programa no está firmado digitalmente. Explicando esto de una forma resumida, "se trata de firmar digitalmente el ejecutable con un certificado emitido por una autoridad de certificación (CA) de confianza, lo cual mejora la legitimidad de la aplicación y reduce la probabilidad de desencadenar detecciones antivirus"
+- Todo esto es muy bueno, hasta que descubres que tienes que pagar como 60 pavos al mes para mantener el certificado. Obviamente no lo voy a hacer, por eso aparece la ventana arriba mencionada. Para permitir que Windows ejecute el programa, haz clic en "Más opciones" y después en "Ejecutar de todas formas"
+- Si desconfías de que el programa tenga virus, puedes revisar el código original abriendo [main.py](https://github.com/MondongoLauncher/MondongoLauncher/blob/4bd396d2ffe3b9e233ddd9523d1d74e3f47f3e98/main.py) en   la página de inicio
 
 ## Uso del programa
-- Ejecuta "Mondongo Launcher" desde el accceso directo en el escritorio
+- Ejecuta "Mondongo Launcher.exe"
 - Si es la primera vez que utilizas este programa, te pedirá que introduzcas un nombre de usuario y cuanta RAM quieres que utilize el juego (recomendado 4 GB)
 - Una vez terminado el proceso de configuración, debería aparecer una pantalla como esta:
   ![preview](https://github.com/MondongoLauncher/MondongoLauncher/blob/27abb01e7e8696fcb662e776a87ce66e37abaaf4/assets/Captura%20de%20pantalla.png)
@@ -35,9 +42,8 @@ MondongoLauncher es un launcher personalizado de Minecraft hecho con Python y la
 - Pulsa Enter y lo demás es seguir las instrucciones del programa.
 
 ## Desinstalar
-- Para desinstalar el programa, simplemente haz clic derecho en el acceso directo en el escritorio y selecciona, "Abrir la ubicación del archivo"
-- Te llevará a una carpeta donde se encuentra el ejecutable del programa y el desinstalador, llamado "unins000.exe"
-- Haz doble clic en el desinstalador y ¡ya estaría!
+- Para desinstalar el programa, simplemente borra la carpeta donde se encuentra el programa
+- ¡Tan simple como eso!
 
   
 - Recuerda que esto solo desinstala el launcher, la carpeta .minecraft todavía existe en tu pc.
