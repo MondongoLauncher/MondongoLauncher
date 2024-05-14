@@ -3,6 +3,7 @@ import json
 import time
 import subprocess
 import asyncio
+import webbrowser
 import minecraft_launcher_lib
 
 
@@ -108,9 +109,10 @@ Bienvenido a MondongoLauncher, {nombre}\n
 ▐Instalar una versión Vanilla (2)
 ▐Instalar una versión Forge (3)
 ▐Instalar una versión Fabric (4)
-▐Instalar un modpack (5)
-▐Editar config.json (6)
-▐Info (7)
+▐Descarga mods (5)
+▐Instalar un modpack (6)
+▐Editar config.json (7)
+▐Info (8)
 ▐----------------------
 ▐Salir (0)
 ''')
@@ -125,17 +127,19 @@ Bienvenido a MondongoLauncher, {nombre}\n
     elif select == "4":
         await install_fabric()
     elif select == "5":
+        await install_mods()
+    elif select == "6":
         await install_modpack()
-    elif select == '6':
-        await cambiar_config()
     elif select == '7':
+        await cambiar_config()
+    elif select == '8':
         await info_app()
     elif select == "0":
         exit()
     elif select == "":
         await menu_I()
     else:
-        print("\n>>Selecciona un número del 0 al 7<<")
+        print("\n>>Selecciona un número del 0 al 8<<")
         time.sleep(2)
         await menu_I()
 
@@ -178,9 +182,6 @@ async def cambiar_config():
     if option == "":
        await menu_I()
     else:
-        print('Opción no válida')
-        time.sleep(1)
-        await info_app()
         if option in data:
             print(f'Ingresa el nuevo valor para {option}')
             nuevo_valor = input('» ')
@@ -390,6 +391,32 @@ async def install_modpack():
             await menu_I()
         else:
             print("Respuesta no válida. Utiliza Y o N")
+
+
+async def install_mods():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print("¿Quieres abrir la página de mods? (se abrirá el navegador)(Y/N)")
+    respuesta = input('» ').strip().upper()
+        
+    if respuesta == 'Y':
+        print("Abriendo la página de descarga de mods...")
+        time.sleep(2)
+        webbrowser.open('https://moddermore.net/search/')
+        time.sleep(2)
+        await menu_I()
+        
+    elif respuesta == 'N':
+        print("Cancelando...")
+        time.sleep(2)
+        await menu_I()
+
+    else:
+        print("Por favor, responde con 'Y' o 'N'.")
+
+
+
+
+
 
 
 async def inicio():
