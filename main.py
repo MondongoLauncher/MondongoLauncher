@@ -19,7 +19,6 @@ async def check():
     if not os.path.exists(ruta_json):
         # Si el archivo JSON no existe, crea uno vacío
         with open(ruta_json, 'w') as f:
-            json.dump({}, f)
             print("Archivo config.json no encontrado.")
             time.sleep(1)
             print("Se ha creado el archivo config.json.")
@@ -32,7 +31,7 @@ async def check():
                 time.sleep(2)
                 await check()
             else:
-                print('Introduce cuánta RAM se utilizará 4GB recomendado):')
+                print('Introduce cuánta RAM se utilizará (4GB recomendado):')
                 ram = input('» ')
                 if ram == "":
                     print('RAM no válida')
